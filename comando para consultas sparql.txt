@@ -1,0 +1,2 @@
+curl -X POST -d "query=SELECT ?p ?o WHERE { <https://raw.githubusercontent.com/jcctesolin/s2c2/main/rdfxml/miscon#isSubordinateTo> ?p ?o }" http://localhost:8080/api/rdf/sparql
+
